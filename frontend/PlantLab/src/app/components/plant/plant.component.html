@@ -1,0 +1,21 @@
+<div class="plant-container" *ngFor="let plant of plants">
+  <h1>{{ plant.name }} ({{ plant.scientificName }})</h1>
+  <p><strong>Type:</strong> {{ plant.type }}</p>
+  <p><strong>Family:</strong> {{ plant.family }}</p>
+  <p><strong>Genus:</strong> {{ plant.genus }}</p>
+  <p><strong>Kingdom:</strong> {{ plant.kingdom }}</p>
+  <p><strong>Order:</strong> {{ plant.order }}</p>
+  <p><strong>Tribe:</strong> {{ plant.tribe }}</p>
+  <p>
+    <strong>Recommended Moisture Level:</strong>
+    {{ plant.recommendedMoistureLevel }}%
+  </p>
+  <p>
+    <strong>Current Moisture Level:</strong>
+    {{ plant.currentMoistureLevel }}%
+  </p>
+
+  <button class="water-button" (click)="waterPlant(plant.id)">
+    Water Plant
+  </button>
+</div>
