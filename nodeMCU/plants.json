@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Tree",
+    "name": "Fikret",
+    "scientificName": "Ficus",
+    "family": "Moraceae",
+    "genus": "Ficus; L.",
+    "kingdom": "Plantae",
+    "order": "Rosales",
+    "tribe": "Ficeae; Dumort.",
+    "recommendedMoistureLevel": 30,
+    "id": 1,
+    "moistureSensorPinDO": 0,
+    "moistureSensorPinAO": 1,
+    "waterPlantPin": 7
+  }
+]
